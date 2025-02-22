@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Ora Pois, Brasil!",
-  description: "Um casal de imigrantes vivendo e tentando ganhar a vida pela Europa, começando por Portugal.",
+  description:
+    "Um casal de imigrantes vivendo e tentando ganhar a vida pela Europa, começando por Portugal.",
 };
 
 export default function RootLayout({
@@ -25,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white`}
       >
         {children}
       </body>
