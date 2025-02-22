@@ -27,7 +27,7 @@ export default function Home() {
   };
 
   return (
-    <div className="max-w-lg mx-auto p-6">
+    <div className="max-w-lg mx-auto p-6 dark:text-white transition mt-10">
       <Profile />
 
       {/* Dark Mode Switch */}
